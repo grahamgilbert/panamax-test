@@ -1,0 +1,11 @@
+---
+name: pebble.app
+description: pebble.it's Munki stack
+keywords: ''
+type: Ubuntu
+documentation: ''
+images:
+- name: macadmins_sal_latest
+  source: macadmins/sal:latest
+  category: App
+  type: Default
