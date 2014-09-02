@@ -1,0 +1,19 @@
+---
+name: pebble.munki
+description: ''
+keywords: ''
+type: Default
+documentation: ''
+images:
+- name: macadmins_sal_latest
+  source: macadmins/sal:latest
+  category: App
+  type: Default
+- name: pebbleit_ssl_proxy
+  source: pebbleit/ssl_proxy:latest
+  category: Proxy
+  type: Default
+- name: postgres
+  source: postgres:latest
+  category: DB
+  type: Default
